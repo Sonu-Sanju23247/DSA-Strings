@@ -1,0 +1,11 @@
+ //Q-2:Write a programm using method ChangeString() that will change the word Hello to  Dello:
+//public class Main{
+//    static void ChangeString(String s){
+//        s="Dello";
+//        System.out.println(s);
+//    }
+//    public static void main(String[] args) {
+//      String s="Hello";
+//      ChangeString(s);
+//    }
+//}
