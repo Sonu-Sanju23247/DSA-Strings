@@ -1,0 +1,21 @@
+//q-6:write a java code to take  2string from user if first charcater of 2nd string and last charcater of 1st string are same then
+//// combine them together:
+public class Main {
+    static void Combination(String s1,String s2){
+        if(s1.charAt(s1.length()-1)==s2.charAt(0)){
+            String s3=s1+s2;
+            System.out.println(s3);
+        }
+        else {
+            System.out.println("No match !!");
+        }
+    }
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Input first string:");
+        String s1= sc.next();
+        System.out.println("Input the second String:");
+        String s2=sc.next();
+        Combination(s1,s2);
+    }
+}
