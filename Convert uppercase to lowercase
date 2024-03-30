@@ -1,0 +1,20 @@
+//q-3:Write a programm to convert all uppercase to lowercase and vice-versa:
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the string in UpperCase:");
+        String str=sc.nextLine();
+        int i=0;
+        char s[]=str.toCharArray();
+        for(i=0;i<str.length();i++){
+            if(s[i]>='A' && s[i]<='Z'){
+                s[i]=(char)((int)s[i]+32);
+            }
+        }
+        System.out.println("The lowerCase String of the Above is :");
+        for(i=0;i<s.length;i++){
+            System.out.print(s[i]);
+        }
+    }
+}
