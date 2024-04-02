@@ -1,0 +1,26 @@
+Q-5) WAP to remove the all the occurence  of a character in the given string:
+//public class Main {
+//    public static String PrintString(String s,int index){
+//        //BASE CASE:
+//        if(index== s.length())
+//            return " ";
+//        //Recursive WORK:
+//        String smallpr= PrintString(s,index+1);
+//        char current=s.charAt(index);
+//        // Self work:
+//        if(current!='l')
+//            return current+smallpr;
+//        if(current=='l') {
+//            return PrintString(s, index + 1);
+//        }
+//        else {
+//            return  smallpr;
+//        }
+//    }
+//    public static  void main(String[]args){
+//        Scanner sc=new Scanner(System.in);
+//        System.out.println("enter the string:");
+//        String s=sc.next();
+//        System.out.println( PrintString(s,0));
+//    }
+//}
