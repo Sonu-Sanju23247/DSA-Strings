@@ -1,0 +1,17 @@
+// Write a programm to print length of the String without using String methods:
+
+//class  Main{
+//    public static void main(String[] args) {
+//        Scanner sc=new Scanner(System.in);
+//        String s=sc.next();
+//        char []str=s.toCharArray();
+//        int count=0;
+//        int i=0;
+//        for(i=0;i<str.length;i++) {
+//            if (str[i]!= ' '){
+//                count++;
+//            }
+//        }
+//        System.out.println("The Length of String is:" + count );
+//    }
+//}
