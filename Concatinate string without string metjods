@@ -1,0 +1,22 @@
+// 1.Write a programm to concatinate two string withot using operatiors and String methods:
+public  class Main {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter two different  strings:");
+        String s1=sc.nextLine();
+        String s2=sc.nextLine();
+        char concate[]=new char[s1.length()+s2.length()];
+        int i=0;
+        for(i=0;i<s1.length();i++){
+            concate[i]=s1.charAt(i);
+        }
+        for(i=0;i<s2.length();i++){
+            concate[s1.length()+i]=s2.charAt(i);
+        }
+        System.out.println("the concatinated string is :");
+        for(i=0;i<concate.length;i++){
+            System.out.print(concate[i]);
+        }
+
+    }
+}
