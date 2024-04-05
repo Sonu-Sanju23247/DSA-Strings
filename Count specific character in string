@@ -1,0 +1,18 @@
+//5.Write the code to count the occurence of the specific charcater form the string without using string methods:
+//class Main{
+//    public static void main(String[] args) {
+//        Scanner sc=new Scanner (System.in);
+//        System.out.println("enter the stirng:");
+//        String s=sc.next();
+//        int count=0;
+//        char []str=s.toCharArray();
+//        System.out.println("enter the character to be searched and count");
+//        char c = sc.next().charAt(0);
+//        for(int i=0;i<str.length;i++){
+//            if(str[i]==c){
+//                count++;
+//            }
+//        }
+//        System.out.println("the number of occurences is:"+count);
+//    }
+//}
