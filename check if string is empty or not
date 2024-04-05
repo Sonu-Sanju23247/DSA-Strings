@@ -1,0 +1,11 @@
+//3. Check if  a String is empty or not without using string methods.
+//public class Main {
+//    public static void main(String[] args) {
+//        String str = "";
+//        if (str == null || str.length() == 0) {
+//            System.out.println("The string is empty.");
+//        } else {
+//            System.out.println("The string is not empty.");
+//        }
+//    }
+//}
